@@ -1,0 +1,5 @@
+## Interface: 11302
+## Title: DmtHelper
+## Notes: Helps organize handing out DMT buffs
+
+Core.lua

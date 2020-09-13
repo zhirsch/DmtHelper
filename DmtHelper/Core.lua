@@ -38,7 +38,7 @@ function DmtHelper:Print(msg)
 end
 
 function DmtHelper:SendChatMessage(msg)
-    SendChatMessage("[DmtHelper] " .. msg, "PARTY")
+    SendChatMessage("[DmtHelper] " .. msg, "RAID")
 end
 
 function DmtHelper:Init()

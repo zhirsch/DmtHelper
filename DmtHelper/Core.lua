@@ -106,7 +106,7 @@ end
 
 function DmtHelper:PrintState()
     self:Print("------------------------------")
-    self:Print("Enabled: " .. self.enabled)
+    self:Print("Enabled: " .. tostring(self.enabled))
     self:Print("Line:")
     for i, guid in ipairs(self.line) do
         self:Print("  " .. i .. "  " .. self.roster[guid])
